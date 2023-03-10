@@ -54,19 +54,6 @@ article h2, article p {
     padding: 10px 10px 10px 10px;
 }
 
-#mas {
-    text-align:center;
-    font-size: 10rem;
-    color: #bbb;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#mas:hover {
-    color: #0f2d5b;
-}
-
 footer {
     background-color: #0f2d5b;
     padding: 10px;
