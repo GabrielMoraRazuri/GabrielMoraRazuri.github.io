@@ -1,0 +1,93 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0f2d5b;
+    color: #fff;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px 20px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 15px 0 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    transition: all 0.5s;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    margin: 30px;
+    padding: 10px 0;
+    border: 1px solid #ffcb8c;
+    border-radius: 20px;
+    width: 300px;
+    height: 475px;
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.7rem;
+}
+
+article:hover {
+    cursor: pointer;
+    color: #0f2d5b;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.6 )
+}
+
+article h2, article p {
+    padding: 10px 10px 10px 10px;
+}
+
+#mas {
+    text-align:center;
+    font-size: 10rem;
+    color: #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mas:hover {
+    color: #0f2d5b;
+}
+
+footer {
+    background-color: #0f2d5b;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffcb8c;
+    cursor: pointer;
+}
+
+#centro {
+    margin: 0 200px;
+}
